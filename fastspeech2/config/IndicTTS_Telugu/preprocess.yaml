@@ -1,0 +1,32 @@
+dataset: "IndicTTS_Telugu"
+
+path:
+  corpus_path: "./raw_data/IndicTTS_Telugu"  # built by data_prep/telugu_prep.py (not by prepare_align.py)
+  lexicon_path: "lexicon/telugu_lexicon.txt"
+  raw_path: "./raw_data/IndicTTS_Telugu"
+  preprocessed_path: "./preprocessed_data/IndicTTS_Telugu"
+  train_ids: "./preprocessed_data/IndicTTS_Telugu/train_ids.txt"
+  val_ids: "./preprocessed_data/IndicTTS_Telugu/val_ids.txt"
+
+preprocessing:
+  val_size: 512  # unused when train_ids/val_ids are given
+  text:
+    text_cleaners: ["basic_cleaners"]
+    language: "te"
+  audio:
+    sampling_rate: 22050
+    max_wav_value: 32768.0
+  stft:
+    filter_length: 1024
+    hop_length: 256
+    win_length: 1024
+  mel:
+    n_mel_channels: 80
+    mel_fmin: 0
+    mel_fmax: 8000
+  pitch:
+    feature: "phoneme_level"
+    normalization: True
+  energy:
+    feature: "phoneme_level"
+    normalization: True

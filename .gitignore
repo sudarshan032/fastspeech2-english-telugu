@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+fastspeech2/output/
+fastspeech2/raw_data/

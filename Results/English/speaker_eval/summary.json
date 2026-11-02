@@ -1,0 +1,102 @@
+{
+ "speakers_in_val": 48,
+ "train_min_range": [
+  1.61,
+  2.915,
+  8.55
+ ],
+ "spearman_trainmin_vs_val_total": {
+  "rho": -0.014,
+  "p": 0.9261854090862185
+ },
+ "spearman_trainmin_vs_gap_total": {
+  "rho": 0.015,
+  "p": 0.9200776008279894
+ },
+ "spearman_trainmin_vs_val_mel": {
+  "rho": -0.01,
+  "p": 0.9474464104844046
+ },
+ "spearman_trainmin_vs_gap_mel": {
+  "rho": 0.064,
+  "p": 0.6642841580045602
+ },
+ "spearman_trainmin_vs_val_postnet": {
+  "rho": -0.01,
+  "p": 0.9474464104844046
+ },
+ "spearman_trainmin_vs_gap_postnet": {
+  "rho": 0.064,
+  "p": 0.6645594802389396
+ },
+ "spearman_trainmin_vs_val_pitch": {
+  "rho": -0.094,
+  "p": 0.5240657584691336
+ },
+ "spearman_trainmin_vs_gap_pitch": {
+  "rho": -0.089,
+  "p": 0.546383351690807
+ },
+ "spearman_trainmin_vs_val_energy": {
+  "rho": 0.098,
+  "p": 0.5090251992962016
+ },
+ "spearman_trainmin_vs_gap_energy": {
+  "rho": 0.095,
+  "p": 0.5192746380119092
+ },
+ "spearman_trainmin_vs_val_duration": {
+  "rho": 0.211,
+  "p": 0.1506350022556142
+ },
+ "spearman_trainmin_vs_gap_duration": {
+  "rho": 0.21,
+  "p": 0.15160582790847543
+ },
+ "bins": {
+  "0-3 min": {
+   "speakers": 26,
+   "mel": 0.7476,
+   "duration": 0.2214,
+   "pitch": 0.4882,
+   "energy": 0.4021
+  },
+  "3-5 min": {
+   "speakers": 12,
+   "mel": 0.7518,
+   "duration": 0.2656,
+   "pitch": 0.3128,
+   "energy": 0.4365
+  },
+  "5-7 min": {
+   "speakers": 9,
+   "mel": 0.7758,
+   "duration": 0.2659,
+   "pitch": 0.4838,
+   "energy": 0.4507
+  },
+  "7-100 min": {
+   "speakers": 1,
+   "mel": 0.6832,
+   "duration": 0.3781,
+   "pitch": 0.2244,
+   "energy": 0.4761
+  }
+ },
+ "train_sub_mean_dropout_off": {
+  "total": 0.8161,
+  "mel": 0.3963,
+  "postnet": 0.3962,
+  "pitch": 0.01,
+  "energy": 0.0086,
+  "duration": 0.005
+ },
+ "val_mean": {
+  "total": 2.6069,
+  "mel": 0.7545,
+  "postnet": 0.7542,
+  "pitch": 0.4162,
+  "energy": 0.4308,
+  "duration": 0.2511
+ }
+}
